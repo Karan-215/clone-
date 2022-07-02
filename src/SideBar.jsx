@@ -1,6 +1,8 @@
 import React from "react";
 import Button from "./Buttons";
-import { MdOutlineQuiz, MdAssignment } from "react-icons/Md";
+import { MdOutlineQuiz } from "react-icons/Md";
+import { MdAssignment } from "react-icons/Md";
+
 import { GiTeacher } from "react-icons/Gi";
 
 function SideBar() {

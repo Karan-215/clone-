@@ -1,7 +1,4 @@
 import React from "react";
-import { Outlet } from "react-router-dom";
-import MainLayout from "./MainLayout";
-import SideBar from "./SideBar";
 import AssignmentDetails from "./AssignmentDetails";
 
 function Assignment() {

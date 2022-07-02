@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Link, Navigate, Route, Routes } from "react-router-dom";
+import {  Navigate, Route, Routes } from "react-router-dom";
 import Assignment from "./Assignment";
 import AssignmentDetails from "./AssignmentDetails";
 import LectureList from "./LectureList";

@@ -1,6 +1,4 @@
 import React from "react";
-import { Outlet } from "react-router-dom";
-import SideBar from "./SideBar";
 import { BiLinkExternal } from 'react-icons/bi';
 function LectureComp(props) {
   return (
@@ -20,7 +18,7 @@ function LectureComp(props) {
           </ul>
           </div>
           <div className="">
-          <a href="#" className="text-gray-600 mt-4 flex items-center justify-center"> <BiLinkExternal/> Watch/Downloading Recording</a>
+          <a href="#" className="text-gray-600 mt-4 flex items-center p-2 justify-center"> <BiLinkExternal/> Watch/Downloading Recording</a>
           </div>
         </div>
         

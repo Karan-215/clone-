@@ -1,8 +1,5 @@
 import React from "react";
-import { Outlet, useParams } from "react-router-dom";
-import MainLayout from "./MainLayout";
-import SideBar from "./SideBar";
-import { BiLinkExternal ,BiCheckCircle} from 'react-icons/bi';
+import {BiCheckCircle} from 'react-icons/bi';
 
 
 function AssignmentDetails(props) {

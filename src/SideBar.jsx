@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Button from "./Buttons";
 import { MdOutlineQuiz, MdAssignment } from "react-icons/Md";
 import { GiTeacher } from "react-icons/Gi";

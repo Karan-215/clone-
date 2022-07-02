@@ -1,7 +1,6 @@
 import React from "react";
 import LectureComp from "./LectureComp";
-import MainLayout from "./MainLayout";
-import SideBar from "./SideBar";
+
 
 function LectureList() {
   return (

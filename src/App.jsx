@@ -6,6 +6,7 @@ import LectureList from "./LectureList";
 import MainLayout from "./MainLayout";
 import NotFound from "./NotFound";
 import Quiz from "./Quiz";
+import StudentsList from "./StudentsList";
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
         <Route path="/" element={<MainLayout></MainLayout>}>
           <Route path="assignment" element={<Assignment />} />
           <Route path="lecture" element={<LectureList />} />
+          <Route path="studentsList" element={<StudentsList />} />
+
           <Route
             path="assignment/:assignmentnumber/details"
             element={<AssignmentDetails />}

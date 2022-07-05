@@ -4,7 +4,7 @@ import LectureComp from "./LectureComp";
 
 function LectureList() {
   return (
-   <div className="  py-6 px-20 w-full  ">
+   <div className="  py-6 px-20   ">
      <h1 className="text-2xl font-bold">session list</h1>
      <div className=" shadow-lg  space-y-3 px-52 pb-10">
 
